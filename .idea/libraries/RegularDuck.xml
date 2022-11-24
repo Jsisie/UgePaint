@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="RegularDuck">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/RegularDuck.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RubberDuck.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

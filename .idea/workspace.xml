@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="537a502f-312f-4f98-8e77-57d0adaddfb7" name="Changes" comment="Edit CmdLine">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/RegularDuck.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/RegularDuckFactory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rapport_DesignPattern_BarrouxLeo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RegularDuck.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RegularDuckFactory.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RubberDuck.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RubberDuckFactory.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Surprise.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UgePaint.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/draw-big.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/draw-small.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/draw1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/draw2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/makeSPIJar.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/CoolGraphics/CoolGraphics$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/CoolGraphics/CoolGraphics$1MouseManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/CoolGraphics/CoolGraphics$ColorPlus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/CoolGraphics/CoolGraphics$MouseCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/CoolGraphics/CoolGraphics.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/Duck/Duck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/Duck/DuckFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/Duck/DuckFarm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/Duck/DuckFarmBetter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex1/SimpleGraphicsExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex2/Form.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex2/Line.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex2/Paint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex3/Ellipse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex3/Form.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex3/Line.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex3/Paint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex3/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex4_5/Ellipse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex4_5/Form.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex4_5/Line.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex4_5/Paint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex4_5/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex4_5/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex4_5/SimpleGraphicsExampleClick.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex6/AbstractRectangleEllipse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex6/Drawing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex6/Ellipse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex6/Form.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex6/Line.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex6/Paint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex6/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex6/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex6/Window.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex7/AbstractRectangleEllipse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex7/CoolGraphicsExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex7/CoolGraphicsManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex7/Drawing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex7/Ellipse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex7/Form.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex7/GraphicsManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex7/Line.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex7/Paint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex7/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex7/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex7/SimpleGraphicsManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex7/Window.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex8/AbstractRectangleEllipse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex8/Canvas$CanvasColor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex8/Canvas$MouseClickCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex8/Canvas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex8/CoolGraphicAdapter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex8/CoolGraphicAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex8/Drawing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex8/Ellipse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex8/Form.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex8/Line.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex8/Paint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex8/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex8/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex8/SimpleGraphicAdapter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex8/SimpleGraphicAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex8/WindowSize.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex9/BoundingBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex9/Canvas$CanvasColor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex9/Canvas$MouseClickCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex9/Canvas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex9/CoolGraphicAdapter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex9/CoolGraphicAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex9/Drawing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex9/Ellipse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex9/Line.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex9/Paint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex9/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex9/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex9/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex9/SimpleGraphicAdapter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex9/SimpleGraphicAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/paint/ex9/WindowSize.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/simplegraphics/SimpleGraphics$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/simplegraphics/SimpleGraphics$1MouseManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/simplegraphics/SimpleGraphics$MouseCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UgePaint/fr/uge/poo/simplegraphics/SimpleGraphics.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/CoolGraphics/CoolGraphics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/Duck/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/Duck/DuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/Duck/DuckFarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/Duck/DuckFarmBetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex1/SimpleGraphicsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex2/Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex2/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex2/Paint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex3/Ellipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex3/Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex3/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex3/Paint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex3/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex4_5/Ellipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex4_5/Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex4_5/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex4_5/Paint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex4_5/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex4_5/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex4_5/SimpleGraphicsExampleClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex6/AbstractRectangleEllipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex6/Drawing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex6/Ellipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex6/Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex6/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex6/Paint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex6/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex6/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex6/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex7/AbstractRectangleEllipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex7/CoolGraphicsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex7/CoolGraphicsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex7/Drawing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex7/Ellipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex7/Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex7/GraphicsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex7/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex7/Paint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex7/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex7/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex7/SimpleGraphicsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex7/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex8/AbstractRectangleEllipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex8/Canvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex8/CoolGraphicAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex8/Drawing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex8/Ellipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex8/Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex8/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex8/Paint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex8/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex8/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex8/SimpleGraphicAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex8/WindowSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex9/BoundingBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex9/Canvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex9/CoolGraphicAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex9/Drawing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex9/Ellipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex9/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex9/Paint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex9/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex9/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex9/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex9/SimpleGraphicAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/ex9/WindowSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/solution1/BoundingBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/solution1/Canvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/solution1/CoolGraphicAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/solution1/Drawing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/solution1/Ellipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/solution1/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/solution1/Paint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/solution1/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/solution1/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/solution1/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/solution1/SimpleGraphicAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/paint/solution1/WindowSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/uge/poo/simplegraphics/SimpleGraphics.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/UgePaint" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2FTx040afqW5iTf7so0jyVYHd26" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programs/Java/DesignPattern/UgePaint&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programs\Java\DesignPattern\UgePaint\src\fr\uge\poo\paint\solution1" />
+      <recent name="D:\Programs\Java\DesignPattern\UgePaint\src\fr\uge\poo\paint\ex9" />
+      <recent name="D:\Programs\Java\DesignPattern\UgePaint\src\fr\uge\poo\paint\ex8" />
+      <recent name="D:\Programs\Java\DesignPattern\UgePaint\src\fr\uge\poo\paint\ex7" />
+      <recent name="D:\Programs\Java\DesignPattern\UgePaint\src\fr\uge\poo\paint\ex6" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="fr.uge.poo.paint.ex9.window" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fr.uge.poo.paint.ex3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Paint - Simple graphics">
+    <configuration name="Paint - Cool graphics" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="fr.uge.poo.paint.ex9.Paint" />
+      <module name="UgePaint" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Paint - Simple graphics" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="fr.uge.poo.paint.ex9.Paint" />
+      <module name="UgePaint" />
+      <option name="PROGRAM_PARAMETERS" value="-legacy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmdLineParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UgePaint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.uge.poo.cmdline.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.uge.poo.cmdline.ex1" />
+      <option name="MAIN_CLASS_NAME" value="fr.uge.poo.cmdline.ex1.CmdLineParserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmdLineParserTest.processShouldFailFastOnNullArgument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UgePaint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.uge.poo.cmdline.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.uge.poo.cmdline.ex1" />
+      <option name="MAIN_CLASS_NAME" value="fr.uge.poo.cmdline.ex1.CmdLineParserTest" />
+      <option name="METHOD_NAME" value="processShouldFailFastOnNullArgument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmdLineParserTest.processShouldThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UgePaint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.uge.poo.cmdline.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.uge.poo.cmdline.ex1" />
+      <option name="MAIN_CLASS_NAME" value="fr.uge.poo.cmdline.ex1.CmdLineParserTest" />
+      <option name="METHOD_NAME" value="processShouldThrowException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmdLineParserTest.processShouldWorksProperly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UgePaint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.uge.poo.cmdline.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.uge.poo.cmdline.ex1" />
+      <option name="MAIN_CLASS_NAME" value="fr.uge.poo.cmdline.ex1.CmdLineParserTest" />
+      <option name="METHOD_NAME" value="processShouldWorksProperly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmdLineParserTest.registerOptionShouldFailIfSameObjectAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UgePaint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.uge.poo.cmdline.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.uge.poo.cmdline.ex1" />
+      <option name="MAIN_CLASS_NAME" value="fr.uge.poo.cmdline.ex1.CmdLineParserTest" />
+      <option name="METHOD_NAME" value="registerOptionShouldFailIfSameObjectAdded" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Paint - Cool graphics" />
+      <item itemvalue="Application.Paint - Simple graphics" />
+      <item itemvalue="JUnit.CmdLineParserTest" />
+      <item itemvalue="JUnit.CmdLineParserTest.processShouldFailFastOnNullArgument" />
+      <item itemvalue="JUnit.CmdLineParserTest.processShouldThrowException" />
+      <item itemvalue="JUnit.CmdLineParserTest.processShouldWorksProperly" />
+      <item itemvalue="JUnit.CmdLineParserTest.registerOptionShouldFailIfSameObjectAdded" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CmdLineParserTest.processShouldThrowException" />
+        <item itemvalue="JUnit.CmdLineParserTest.processShouldWorksProperly" />
+        <item itemvalue="JUnit.CmdLineParserTest" />
+        <item itemvalue="JUnit.CmdLineParserTest.registerOptionShouldFailIfSameObjectAdded" />
+        <item itemvalue="JUnit.CmdLineParserTest.processShouldFailFastOnNullArgument" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="537a502f-312f-4f98-8e77-57d0adaddfb7" name="Changes" comment="" />
+      <created>1664529652035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664529652035</updated>
+      <workItem from="1664529654302" duration="7901000" />
+      <workItem from="1664865574336" duration="30412000" />
+      <workItem from="1665481279474" duration="629000" />
+      <workItem from="1665503286952" duration="28613000" />
+      <workItem from="1665737723838" duration="448000" />
+      <workItem from="1665909535823" duration="30000" />
+      <workItem from="1666209554419" duration="5657000" />
+      <workItem from="1666301500836" duration="16586000" />
+      <workItem from="1666617372696" duration="3267000" />
+      <workItem from="1666641585175" duration="1522000" />
+      <workItem from="1666702539717" duration="1743000" />
+      <workItem from="1666705468813" duration="7000" />
+      <workItem from="1666769736318" duration="8863000" />
+      <workItem from="1666943809029" duration="2584000" />
+      <workItem from="1666948480159" duration="5757000" />
+      <workItem from="1667132524930" duration="1523000" />
+      <workItem from="1667374736198" duration="5729000" />
+      <workItem from="1667401174221" duration="104000" />
+      <workItem from="1667480717007" duration="6401000" />
+      <workItem from="1667596450492" duration="32000" />
+      <workItem from="1667596522135" duration="322000" />
+      <workItem from="1667841689522" duration="4889000" />
+      <workItem from="1668103769286" duration="26642000" />
+      <workItem from="1668515709152" duration="86000" />
+      <workItem from="1668766054138" duration="12000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit + exo 1 + exo 2 (first version)">
+      <created>1664631325134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664631325134</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ex 3 finish + ex 4 created">
+      <created>1664868291157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664868291157</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ex 4 finished (+ factorization) + ex 5 finished (not best implementation)">
+      <created>1665036662668</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665036662668</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changed name of package">
+      <created>1665036744870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665036744870</updated>
+    </task>
+    <task id="LOCAL-00005" summary="code indentation">
+      <created>1665036802787</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665036802787</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Correction TP 1 + start ex6">
+      <created>1665126518108</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665126518108</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add test txt file">
+      <created>1665126532094</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665126532094</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ex6 finished + ex7 half-finished">
+      <created>1665652271630</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665652271630</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Ducks exercise (pre-ex8)">
+      <created>1666211265738</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666211265738</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Full correction of TP1/2 with &quot;best&quot; implementation">
+      <created>1666618845029</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666618845029</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Advanced Duck exercise (jar creation)">
+      <created>1666618927895</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666618927895</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Remove workspace.xml automatic commit in .gitignore file">
+      <created>1666619040610</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666619040610</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Creation exercise 8">
+      <created>1666619180989</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666619180989</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Changed AbstractRectangleEllipse to a BoundingBox to make center process works">
+      <created>1666771690326</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666771690326</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Creation of ex9">
+      <created>1666771886231</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666771886231</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Creation ex1 CmdLine">
+      <created>1666948659206</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666948659206</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Edit CmdLine">
+      <created>1667133015342</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667133015342</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit + exo 1 + exo 2 (first version)" />
+    <MESSAGE value="Ex 3 finish + ex 4 created" />
+    <MESSAGE value="ex 4 finished (+ factorization) + ex 5 finished (not best implementation)" />
+    <MESSAGE value="changed name of package" />
+    <MESSAGE value="code indentation" />
+    <MESSAGE value="Correction TP 1 + start ex6" />
+    <MESSAGE value="add test txt file" />
+    <MESSAGE value="ex6 finished + ex7 half-finished" />
+    <MESSAGE value="Ducks exercise (pre-ex8)" />
+    <MESSAGE value="Full correction of TP1/2 with &quot;best&quot; implementation" />
+    <MESSAGE value="Advanced Duck exercise (jar creation)" />
+    <MESSAGE value="Remove workspace.xml automatic commit in .gitignore file" />
+    <MESSAGE value="Creation exercise 8" />
+    <MESSAGE value="Changed AbstractRectangleEllipse to a BoundingBox to make center process works" />
+    <MESSAGE value="Creation of ex9" />
+    <MESSAGE value="Creation ex1 CmdLine" />
+    <MESSAGE value="Edit CmdLine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit CmdLine" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
