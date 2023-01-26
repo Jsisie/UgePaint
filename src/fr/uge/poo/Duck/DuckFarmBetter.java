@@ -9,7 +9,7 @@ import java.util.ServiceLoader;
 public class DuckFarmBetter {
     public static void main(String[] args) {
         var ducks = new ArrayList<Duck>();
-        ServiceLoader<DuckFactory> loader = ServiceLoader.load(fr.uge.poo.ducks.DuckFactory.class);
+        ServiceLoader<DuckFactory> loader = ServiceLoader.load(DuckFactory.class);
         loader.stream().forEach((x)->{
             ducks.add(x.get().withName("Riri"));
             ducks.add(x.get().withName("Fifi"));
